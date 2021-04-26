@@ -21,5 +21,9 @@ class FooBarBazTest {
     void testTranformWhenDivByFive() {
         assertEquals("bar", fbb.transform(5));
     }
-
+    
+    @Test
+    void testTranformWhenDivBySeven() {
+        assertEquals("baz", fbb.transform(7));
+    }
 }
